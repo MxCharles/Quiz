@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Industry Quiz</title>
+</head>
+<body>
+
+<div id="quiz-container">
+    <h1>Industry Quiz</h1>
+    <form id="quiz-form">
+        <div class="question">
+            <p>1. What even is Industry?</p>
+            <label>
+                <input type="radio" name="q1" value="Channing Tatum"> Channing Tatum
+            </label>
+            <label>
+                <input type="radio" name="q1" value="TFlows, data, industry databases, arguing with MOPS"> Flows, data, industry databases, arguing with MOPS
+            </label>
+            <label>
+                <input type="radio" name="q1" value="Sorry! I don't know her> Sorry! I don't know her"> Sorry! I don't know her
+            </label>
+        </div>
+
+        <div class="question">
+            <p>2. What is the URN?</p>
+            <label>
+                <input type="radio" name="q2" value="I don't know but you should probably go see a Dr"> I don't know but you should probably go see a Dr
+            </label>
+            <label>
+                <input type="radio" name="q2" value="URN is a gas flow for an actual read"> URN is a gas flow for an actual read
+            </label>
+            <label>
+                <input type="radio" name="q2" value="Channing Tatum"> Channing Tatum
+            </label>
+        </div>
+
+        <button type="button" onclick="submitQuiz()">Submit</button>
+    </form>
+
+    <div id="results-container"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
